@@ -8,6 +8,7 @@ administré entidades en tablas NoSQL, lo que me permitió comprender cómo alma
 , organizar y proteger datos no relacionales en Azure, además de aprender a elegir 
 la opción de almacenamiento más adecuada según las necesidades de distintos 
 escenarios. Para esto, fue necesario una suscripción de Azure con permisos administrativos
+y el laboratorio tomó aproximadamente 15 minutos en completarse.
 
 ---
 
