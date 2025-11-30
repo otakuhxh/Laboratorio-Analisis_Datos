@@ -1,10 +1,7 @@
 # 🚀 Laboratorio: Aprovisionamiento y Consultas en Azure SQL Database 
 **Logrado y documentado por:** *Tiffany Jordán* 
 
-En este laboratorio aprovisioné una base de datos SQL en Azure y ejecuté consultas 
-utilizando la base de datos de ejemplo **AdventureWorks**. Realicé cada paso 
-manualmente desde el portal y añadí capturas para evidenciar el proceso. Esta práctica requirió una
-suscripción de Azure con permisos administrativos.
+En este laboratorio exploré los fundamentos de **Azure SQL Database**, comprendiendo su propósito dentro de las soluciones de bases de datos administradas en la nube y cómo permite trabajar con datos relacionales de forma escalable y segura. Utilicé la base de datos de ejemplo **AdventureWorks** para ejecutar consultas SQL desde el portal, familiarizándome con su interfaz y sus capacidades principales. Esta práctica requirió una suscripción de Azure con permisos administrativos.
 
 ## 1. Crear recurso Azure SQL
 Ingresé al **Azure Portal**, seleccioné **+ Crear recurso**, busqué **Azure SQL** y elegí **Crear**.
