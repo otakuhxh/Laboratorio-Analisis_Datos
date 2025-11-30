@@ -2,6 +2,7 @@
 
 En este laboratorio exploré los fundamentos de Azure Storage, comprendiendo su propósito dentro de las soluciones de almacenamiento en la nube y la variedad de servicios que ofrece para manejar datos de forma flexible y segura como Blob Storage, Data Lake Storage Gen2, 
 Azure Files y Azure Tables. Esta práctica me permitió familiarizarme con el entorno de Azure y preparar el contexto necesario para trabajar posteriormente con cada uno de sus servicios de almacenamiento. El laboratorio tuvo una duración aproximada de 15 minutos.
+
 ---
 
 ## Aprovisionar una cuenta de Azure Storage
