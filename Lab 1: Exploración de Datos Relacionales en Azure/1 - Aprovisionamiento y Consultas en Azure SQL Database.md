@@ -107,29 +107,38 @@ Exploré la carpeta **Tables** para ver todas las tablas disponibles.
 Para explorar las tablas y probar el entorno, ejecute las siguientes consultas:
 
 **Primera Consulta (Toda la Tabla)**
+
+``` sql
 >SELECT * FROM SalesLT.Product;
+``` 
 
 📸 *Captura de Ejecución - Consulta 1*  
 
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/dee68df4-feb8-4633-a804-e59e6b3e9bbb" />
 
 **Segunda Consulta (Columnas Especíificas)**
->SELECT ProductID, Name, ListPrice, ProductCategoryID
->FROM SalesLT.Product;
+
+``` sql
+SELECT ProductID, Name, ListPrice, ProductCategoryID
+FROM SalesLT.Product;
+``` 
 
 📸 *Captura de Ejecución - Consulta 2*  
 
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/5f7edc06-545f-4a74-83b1-bcf7b3c15364" />
 
 **Tercera Consulta (Inner Join)**
->SELECT 
->    p.ProductID, 
->    p.Name AS ProductName,
->    c.Name AS Category,
->    p.ListPrice
->FROM SalesLT.Product AS p
->INNER JOIN SalesLT.ProductCategory AS c
->    ON p.ProductCategoryID = c.ProductCategoryID;
+
+``` sql
+SELECT 
+    p.ProductID, 
+    p.Name AS ProductName,
+    c.Name AS Category,
+    p.ListPrice
+FROM SalesLT.Product AS p
+INNER JOIN SalesLT.ProductCategory AS c
+    ON p.ProductCategoryID = c.ProductCategoryID;
+```
 
 📸 *Captura de Ejecución - Consulta 3*  
 
