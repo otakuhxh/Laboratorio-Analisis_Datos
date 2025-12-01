@@ -1,4 +1,4 @@
-# ⭐ Explorar Azure Cosmos DB
+# ⭐ Exploración de Azure Cosmos DB
 **Logrado y documentado por:** *Tiffany Jordán* 
 
 En este laboratorio aprovisioné una cuenta de Azure Cosmos DB, creé una base de datos y un contenedor 
