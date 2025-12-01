@@ -108,10 +108,19 @@ Pasos realizados:
 
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/6fa5a4b0-90b0-4336-8631-7767688d93cb" />
 
-La canalización comenzó a ejecutar la copia del dataset (más de 75 millones de filas).  
-Desde el panel de **Salida** supervisé el progreso hasta su finalización.
+<p></p>
 
-Finalmente, actualicé el explorador de Lakehouse y confirmé que la tabla **taxi_rides** había sido creada.
+> La canalización comenzó a ejecutar la copia del dataset (más de 75 millones de filas).  
+
+6. Desde el panel de **Salida** supervisé el progreso hasta su finalización.
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/4d12a518-7c40-4fbb-a962-df6f96b555ce" />
+
+7. Finalmente, actualicé el explorador de Lakehouse y confirmé que la tabla **taxi_rides** había sido creada.
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/97778cda-d21e-4206-95fd-54df2a1bfb1a" />
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/bb74f52c-c5fb-4aad-a9c3-bf35853c18cb" />
 
 ---
 
@@ -122,7 +131,13 @@ Con los datos ya cargados, ejecuté consultas SQL directamente desde el punto de
 Pasos realizados:
 
 1. Cambié la vista a **Punto de análisis SQL**.  
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/486f2be1-78de-4829-88ff-03530c87f94e" />
+
 2. Seleccioné **Nueva consulta SQL**.  
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/afe7a9c6-d23a-43f5-a33e-c05c0d101425" />
+
 3. Ejecuté la consulta:
 
 ```sql
@@ -131,11 +146,20 @@ SELECT  DATENAME(dw,lpepPickupDatetime) AS Day,
 FROM taxi_rides
 GROUP BY DATENAME(dw,lpepPickupDatetime)
 ```
+<p></p>
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/190d917a-4259-411c-bf97-7824d3ec7724" />
 
 # 5. Limpiar recursos
 
-Una vez que terminé todas las actividades del laboratorio, procedí a eliminar el grupo de recursos que había creado para evitar cargos adicionales y mantener mi entorno de Azure ordenado.
+Una vez que terminé todas las actividades del laboratorio, procedí a eliminar el grupo de recursos que había creado, porque de esta forma, se eliminan todos los elementos creados en el laboratorio y ayuda a evitar cargos continuos.
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/55bcb2a4-4e6f-468d-9348-75379e866c30" />
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/95d127b4-3fb5-4531-9eed-f28e1133aa64" />
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/474790c8-63ff-4829-9a05-a205ed7f8977" />
 
 # Cierre del Laboratorio
 
-Una vez finalizado el laboratorio, eliminé el grupo de recursos que había creado para evitar cargos adicionales. Durante este ejercicio aprendí a aprovisionar y configurar una base de datos SQL en Azure desde cero, conectarme mediante Query Editor y ejecutar consultas sobre las tablas de ejemplo de AdventureWorks, lo que me permitió reforzar mi entendimiento del modelo relacional en un entorno en la nube. Además, comprendí mejor cómo se gestionan los recursos dentro de un grupo, el uso de herramientas de consulta integradas y la importancia de la limpieza del entorno para un uso eficiente y responsable de los servicios en la nube. Este laboratorio fortaleció mis habilidades para trabajar con bases de datos administradas y me preparó para futuros escenarios reales en proyectos empresariales.
+Al finalizar este laboratorio pude recorrer el flujo completo de trabajo dentro de Microsoft Fabric para la ingesta y análisis de datos, desde la creación de un entorno aislado hasta la carga, consulta y exploración del conjunto de datos de taxis de Nueva York. Esta práctica me permitió entender cómo Fabric unifica herramientas clave dentro de un mismo espacio como Lakehouse, canalizaciones y consultas SQL, y cómo estos componentes facilitan el análisis de datos a gran escala. Con este recorrido obtuve una visión clara de cómo se gestionan, transforman y consultan datos reales en Fabric, además de reforzar la importancia de limpiar los recursos utilizados para evitar costos innecesarios.
