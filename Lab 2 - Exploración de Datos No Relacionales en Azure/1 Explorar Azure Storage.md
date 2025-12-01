@@ -1,4 +1,4 @@
-# 🔬 Laboratorio: Explorar Azure Storage
+# 🔬 Laboratorio: Exploración de Azure Storage
 
 **Logrado y documentado por:** *Tiffany Jordán* 
 
