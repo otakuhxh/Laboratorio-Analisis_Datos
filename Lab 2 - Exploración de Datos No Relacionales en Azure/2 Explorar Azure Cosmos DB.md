@@ -189,8 +189,7 @@ había creado para evitar cargos adicionales. Este laboratorio me
 permitió comprender cómo aprovisionar y administrar una cuenta de Azure
 Cosmos DB, crear bases de datos y contenedores, trabajar con documentos
 JSON, configurar consultas tipo SQL y manipular datos NoSQL desde el
-Explorador de datos del portal. Gracias\
-a esta experiencia práctica, reforcé conocimientos fundamentales sobre
+Explorador de datos del portal. Gracias a esta experiencia práctica, reforcé conocimientos fundamentales sobre
 bases de datos distribuidas, consultas flexibles y administración de
 recursos en Azure, habilidades esenciales para trabajar con aplicaciones
 modernas en la nube.
